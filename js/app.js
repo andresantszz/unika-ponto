@@ -1,5 +1,5 @@
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxjnNdfypx9H9Y57kg7iMZDAJEDUfK5YIUcFDZ4MeyWb11YltuQJOO88xq76zb-45o/exec";
+const SCRIPT_URL = https://script.google.com/macros/s/AKfycby4KBM-39I7mIxdXZQKk-Z5_8w58ATNX9Kn2o80K-Q-Q0MMOPJsBdZJlcZsBCuZxF2Y/exec;
 
 function login() {
     const username = document.getElementById('username').value.trim();
