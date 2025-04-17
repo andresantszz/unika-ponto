@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registo de Ponto - Unika Radical</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="img/logo.jpg" alt="Unika Radical" class="logo">
+        <h2>Entrar no Sistema</h2>
+        <input type="text" id="username" placeholder="Nome do Funcionário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+        <div id="login-status"></div>
+    </div>
+
+    <div class="register-container" style="display:none;">
+        <h2>Registar Ponto</h2>
+        <button onclick="registar('Entrada')">Entrada</button>
+        <button onclick="registar('Saída')">Saída</button>
+        <div id="status"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
